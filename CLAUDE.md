@@ -21,5 +21,5 @@ Starter Express API for the Claude Code course — a minimal REST service used a
 
 ## Conventions
 
-- Data access goes through `db/store.js`; routes never touch the `users` array directly.
+- Use `db/store.js` for data access; not the `users` array.
 - Real secrets belong in `.env` (git-ignored); `.env.example` documents the shape but is never filled with real values.
